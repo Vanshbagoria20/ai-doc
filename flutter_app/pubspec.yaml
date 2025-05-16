@@ -1,0 +1,53 @@
+name: ai_doc
+description: A smart telehealth and appointment booking app.
+publish_to: 'none' # Prevents publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.5
+
+  # Networking
+  http: ^0.13.6
+
+  # Firebase & Auth
+  firebase_core: ^1.10.6
+  firebase_auth: ^3.3.18
+  cloud_firestore: ^3.1.18
+
+  # Logging
+  logger: ^1.0.0
+
+  # WebRTC
+  flutter_webrtc: ^0.8.0
+
+  # Other dependencies
+  cupertino_icons: ^1.0.2
+  go_router: ^12.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Linting & Analysis
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/doc.jpg
+    - assets/images/standing_doc.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

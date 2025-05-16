@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521546200576",
+    "project_id": "ai-doc-c890f",
+    "storage_bucket": "ai-doc-c890f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521546200576:android:f03ee7bfed9c6bc1aacae5",
+        "android_client_info": {
+          "package_name": "com.example.ai_doc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLlxENOxgECpQmfkUJ2a5JCWkU9ezEcEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

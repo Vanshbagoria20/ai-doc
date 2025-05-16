@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Flutter App",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": []
+    },
+    {
+      "name": "Launch in Release Mode",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "flutterMode": "release",
+      "args": []
+    },
+    {
+      "name": "Attach to Running App",
+      "type": "dart",
+      "request": "attach"
+    }
+  ]
+}
