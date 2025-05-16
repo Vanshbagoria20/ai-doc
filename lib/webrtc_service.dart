@@ -10,7 +10,8 @@ class WebRTCService {
     // Set up signaling and other configurations...
     if (_peerConnection != null) {
       _peerConnection!.onIceCandidate = (candidate) {
-        // Handle ICE candidate
+
+
       };
       _peerConnection!.onAddStream = (stream) {
         // Handle remote stream
